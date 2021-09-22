@@ -1,0 +1,257 @@
+@font-face {
+ font-family: "OpenSans-Regular";
+ src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@charset "utf-8";
+/* CSS Document */
+body, html{
+	height: 100%;
+}
+body{
+	background: #fff;
+	font-family: "OpenSans-Regular";
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li{
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+}
+.img-center{
+	margin: 0 auto;
+}
+.navbar-default{
+	margin-bottom: 0;
+	background: none;
+	box-shadow: none;
+	border: 0;
+}
+.main-slider .item > img{
+	width: 100%;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+	list-style: none;
+}
+
+/*Header Css Start*/
+header {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s;
+}
+.sticky .bottom-row {
+    position: fixed;
+    width: 100%;
+    transition: all 0.5s;
+    margin-top: -64px;
+}
+.tp-nav li {
+    float: left;
+    margin-right: 25px;
+}
+.top-row {
+    padding: 20px 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+.top-row .row {
+    display: flex;
+    align-items: center;
+}
+.srch-blk {
+    float: left;
+    width: 100%;
+}
+.srch-blk ul {
+    float: right;
+}
+.srch-blk li {
+    float: left;
+}
+.srch-blk li:nth-child(2), .srch-blk li:nth-child(3) {
+    margin-left: 20px;
+}
+.srch-blk li:nth-child(2) a, .srch-blk li:nth-child(3) a {
+    font-size: 16px;
+    color: #000;
+}
+.tp-nav li a {
+    color: #303233;
+}
+
+.bottom-row {
+    background-color: #000000bf;
+    padding: 18px 0;
+}
+.logo-brand {
+    color: #fff;
+}
+.srch-blk li:first-child a {
+    background-image: linear-gradient(-180deg,#42b7ff,#1897f2);
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.bottom-row .row {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    min-height: auto;
+}
+#navbar {
+    padding: 0;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+#navbar a {
+    color: #fff;
+    padding: 8px 0px;
+}
+#navbar li {
+    margin-left: 30px;
+}
+.hdr-btn a {
+    background-image: linear-gradient(-180deg,#42b7ff,#1897f2);
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 20px !important;
+    border-radius: 4px;
+}
+
+/*Home Slide Css Start*/
+.home-slide {
+    position: relative;
+}
+.slide-cap {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.slide-cap h5 {
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0;
+}
+.slide-cap a {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    padding: 12px 22px 16px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.slide-cap a i {
+    font-size: 26px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+}
+
+/*Open Sky Sec Css Start*/
+.open-sky {
+    text-align: center;
+    padding: 4% 0 0;
+}
+.open-sky-title {
+    width: 65%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.open-sky-title h3 {
+    color: rgba(0,0,0,.85);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+.open-sky-title p {
+    color: rgba(0,0,0,.85);
+    font-size: 16px;
+    line-height: 24px;
+}
+.open-sky-blk h6 {
+    color: #707473;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0 0;
+}
+.open-sky-blk h6 span {
+    position: relative;
+    font-size: 12px;
+    top: -4px;
+}
+.video-sky video {
+    width: 50%;
+    margin-top: 60px;
+}
+
+/*Levrage Sec Css Start*/
+.leverage-sec {
+    background-color: #141414;
+    padding: 5% 0;
+    position: relative;
+    text-align: center;
+    z-index: 9;
+} 
+.leverage-title h3 {
+    color: #fff;
+    font-size: 46px;
+    margin: 0;
+    line-height: 60px;
+}
+.leverage-title {
+    width: 62%;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.llvrage-blk {
+    background-color: #292929;
+    text-align: left;
+    padding: 40px;
+}
+.llvrage-blk h4 {
+    color: #fff;
+    font-size: 32px;
+    margin: 20px 0;
+}
+.llvrage-blk p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15px;
+    line-height: 24px;
+}
+.llvrage-blk a {
+    font-size: 16px;
+}
+.llvrage-blk a i {
+    margin-left: 10px;
+} 
+/* Default CSS Starts */
+
+
+@media only screen and (min-device-width:520px) and (max-device-width:767px) and (orientation:portrait) {}
+@media only screen and (min-device-width:120px) and (max-device-width:750px) and (orientation:landscape) {}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:portrait) {}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:landscape) {}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:portrait) {}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:landscape) {}
+
+@media only screen and (min-width: 1366px) and (max-width: 1920px){}
+@media only screen and (min-width: 1200px) and (max-width: 1365px){}
+@media only screen and (min-width: 992px) and (max-width: 1199px){}
+@media only screen and (min-width: 768px) and (max-width: 991px){}
+@media only screen and (min-width: 520px) and (max-width: 767px){}
+@media only screen and (min-width: 300px) and (max-width: 519px){}
